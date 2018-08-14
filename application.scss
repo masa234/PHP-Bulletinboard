@@ -1,0 +1,30 @@
+body {
+  background-color: #e6e6e6;
+  /* font-family: 'Helvetica Neue','Helvetica','Arial',cursive; */
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic',cursive;
+}
+
+.jumbotron {
+  font-size: 20px;
+  box-shadow: 0 0 8px gray inset;
+  background-color: #fff;
+  transition: 1s;
+  -webkit-trasition: 1s;
+  font-size: 18px;
+  border-radius: 0px;
+  &:hover {
+    box-shadow: 0 0 8px gray inset;
+    transform: scale(1.03);
+    border-radius: 0px;
+    background-color: #e1f3fa;
+  }
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 30px;
+}
+
+.registar_btn {
+  padding-top: 10px;
+}
