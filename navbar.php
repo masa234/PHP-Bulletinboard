@@ -8,9 +8,9 @@
   <title>
     <?php echo title; ?>
   </title>
-  <link href="../css/bootstrap.css" rel="stylesheet"> <!-- 非推奨です -->
+  <link href="css/bootstrap.css" rel="stylesheet"> <!-- 非推奨です -->
   <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> 本家bootstrapです-->
-  <link href="/memo/application.scss" rel="stylesheet" >
+  <link href="application.scss" rel="stylesheet" >
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
@@ -33,6 +33,6 @@
 </nav>
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 本家です-->
-<script src="../js/bootstrap.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>

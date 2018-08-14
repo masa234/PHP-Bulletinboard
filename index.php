@@ -22,11 +22,11 @@ if ($page>1){
 }
 
 $page_count = $db-> prepare('SELECT COUNT(*) id FROM memos');
-$page_count->execute();
+$page_count->execute(); //レコードの個数が$page_countに代入されています
 $page_count = $page_count->fetchColumn();
-$pagination = ceil($page_count / 10); //小数点切り上げ
+$pagination = ceil($page_count / 10); //小数点を切り上げます
 
-$memos = $db-> prepare('SELECT * FROM memos order BY id LIMIT ?, 10');
+$memos = $db-> prepare('SELECT * FROM memos order BY created_at DESC LIMIT ?, 10 '); //作成日時の降順にDBから抽出したデータから10件ごとに取り出します
 $memos->bindParam(1, $start, PDO::PARAM_INT);
 $memos->execute();
 ?>

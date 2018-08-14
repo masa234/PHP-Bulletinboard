@@ -10,6 +10,7 @@ if (isset($_REQUEST['id']) && is_numeric($_REQUEST['id'])){
     $statement->execute(array($id));
 }
 ?>
+
 <div class="container">
     <h1>メモを削除しました</h1>
     <a class="btn btn-lg btn-primary" href="index.php" role="button">戻る</a>
