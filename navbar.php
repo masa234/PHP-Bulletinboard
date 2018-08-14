@@ -23,7 +23,7 @@
     <div class="collapse navbar-collapse" id="navbarEexample">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link text-primary" href="#">ホーム画面に <span class="sr-only">(current)</span></a>
+          <a class="nav-link text-primary" href="index.php">ホーム画面に <span class="sr-only">(current)</span></a>
         </li>
         <a class="btn btn-lg btn-warning" href="input.php" role="button">新規投稿</a>
         <a class="btn btn-lg btn-primary" href="index.php" role="button">投稿一覧</a>
