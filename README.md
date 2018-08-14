@@ -1,10 +1,7 @@
 # Usage
 
-Apacheのドキュメントルートにこのフォルダをコピー
-その後、
-
 ①
-`https://github.com/masa234/php-bulletinboard`
+Apacheのドキュメントルートにこのフォルダをコピー
 
 ②
 xamppを立ちあげ、Apacheを起動。
